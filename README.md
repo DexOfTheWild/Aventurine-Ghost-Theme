@@ -2,6 +2,8 @@
 
 An extension of [Baseline for skelJS](http://getskel.com) built to give people a kickstart on their [Ghost](http://github.com/tryghost/ghost/) themes.
 
+Live Preview: [http://baseline.alexritchey.com](http://baseline.alexritchey.com)
+
 ## Copyright & License
 
 Copyright (c) n33
