@@ -135,26 +135,26 @@ pre {
 
 /* Section/Article */
 /* line 150, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-section.special, article.special {
+section.special, .post-loop .pagination section.older-posts, .post-loop .pagination section.newer-posts, article.special, .post-loop .pagination article.older-posts, .post-loop .pagination article.newer-posts {
   text-align: center; }
 
 /* line 156, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-header p {
+header p, .author-meta p {
   color: #bbb;
   position: relative;
   margin: 0 0 1.5em 0; }
 /* line 162, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-header h2 + p {
+header h2 + p, .author-meta h2 + p {
   font-size: 1.25em;
   margin-top: -1em;
   line-height: 1.5em; }
 /* line 168, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-header h3 + p {
+header h3 + p, .author-meta h3 + p {
   font-size: 1.1em;
   margin-top: -0.8em;
   line-height: 1.5em; }
 /* line 176, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-header h4 + p, header h5 + p, header h6 + p {
+header h4 + p, .author-meta h4 + p, header h5 + p, .author-meta h5 + p, header h6 + p, .author-meta h6 + p {
   font-size: 0.9em;
   margin-top: -0.6em;
   line-height: 1.5em; }
@@ -555,7 +555,7 @@ table {
 
 /* Button */
 /* line 650, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-input[type="submit"], input[type="reset"], input[type="button"], .button {
+input[type="submit"], input[type="reset"], input[type="button"], .button, .post-loop .pagination .older-posts, .post-loop .pagination .newer-posts {
   -moz-appearance: none;
   -webkit-appearance: none;
   -o-appearance: none;
@@ -580,54 +580,54 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
   text-decoration: none;
   white-space: nowrap; }
   /* line 667, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-  input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover {
+  input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover, .post-loop .pagination .older-posts:hover, .post-loop .pagination .newer-posts:hover {
     background-color: #737373; }
   /* line 671, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-  input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, .button:active {
+  input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, .button:active, .post-loop .pagination .older-posts:active, .post-loop .pagination .newer-posts:active {
     background-color: #595959; }
   /* line 675, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-  input[type="submit"].icon, input[type="reset"].icon, input[type="button"].icon, .button.icon {
+  input[type="submit"].icon, input[type="reset"].icon, input[type="button"].icon, .button.icon, .post-loop .pagination .icon.older-posts, .post-loop .pagination .icon.newer-posts {
     padding-left: 1.35em; }
     /* line 678, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-    input[type="submit"].icon:before, input[type="reset"].icon:before, input[type="button"].icon:before, .button.icon:before {
+    input[type="submit"].icon:before, input[type="reset"].icon:before, input[type="button"].icon:before, .button.icon:before, .post-loop .pagination .icon.older-posts:before, .post-loop .pagination .icon.newer-posts:before {
       margin-right: 0.5em; }
   /* line 683, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-  input[type="submit"].fit, input[type="reset"].fit, input[type="button"].fit, .button.fit {
+  input[type="submit"].fit, input[type="reset"].fit, input[type="button"].fit, .button.fit, .post-loop .pagination .fit.older-posts, .post-loop .pagination .fit.newer-posts {
     display: block;
     margin: 0 0 1em 0;
     width: 100%; }
   /* line 689, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-  input[type="submit"].small, input[type="reset"].small, input[type="button"].small, .button.small {
+  input[type="submit"].small, input[type="reset"].small, input[type="button"].small, .button.small, .post-loop .pagination .small.older-posts, .post-loop .pagination .small.newer-posts {
     font-size: 0.8em; }
   /* line 693, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-  input[type="submit"].big, input[type="reset"].big, input[type="button"].big, .button.big {
+  input[type="submit"].big, input[type="reset"].big, input[type="button"].big, .button.big, .post-loop .pagination .big.older-posts, .post-loop .pagination .big.newer-posts {
     font-size: 1.35em; }
   /* line 697, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-  input[type="submit"].alt, input[type="reset"].alt, input[type="button"].alt, .button.alt {
+  input[type="submit"].alt, input[type="reset"].alt, input[type="button"].alt, .button.alt, .post-loop .pagination .alt.older-posts, .post-loop .pagination .alt.newer-posts {
     background-color: transparent;
     box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
     color: #666 !important; }
     /* line 702, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-    input[type="submit"].alt:hover, input[type="reset"].alt:hover, input[type="button"].alt:hover, .button.alt:hover {
+    input[type="submit"].alt:hover, input[type="reset"].alt:hover, input[type="button"].alt:hover, .button.alt:hover, .post-loop .pagination .alt.older-posts:hover, .post-loop .pagination .alt.newer-posts:hover {
       background-color: rgba(144, 144, 144, 0.075); }
     /* line 706, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-    input[type="submit"].alt:active, input[type="reset"].alt:active, input[type="button"].alt:active, .button.alt:active {
+    input[type="submit"].alt:active, input[type="reset"].alt:active, input[type="button"].alt:active, .button.alt:active, .post-loop .pagination .alt.older-posts:active, .post-loop .pagination .alt.newer-posts:active {
       background-color: rgba(144, 144, 144, 0.2); }
     /* line 711, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-    input[type="submit"].alt.icon:before, input[type="reset"].alt.icon:before, input[type="button"].alt.icon:before, .button.alt.icon:before {
+    input[type="submit"].alt.icon:before, input[type="reset"].alt.icon:before, input[type="button"].alt.icon:before, .button.alt.icon:before, .post-loop .pagination .alt.icon.older-posts:before, .post-loop .pagination .alt.icon.newer-posts:before {
       color: #bbb; }
   /* line 717, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-  input[type="submit"].special, input[type="reset"].special, input[type="button"].special, .button.special {
+  input[type="submit"].special, .post-loop .pagination input[type="submit"].older-posts, .post-loop .pagination input[type="submit"].newer-posts, input[type="reset"].special, .post-loop .pagination input[type="reset"].older-posts, .post-loop .pagination input[type="reset"].newer-posts, input[type="button"].special, .post-loop .pagination input[type="button"].older-posts, .post-loop .pagination input[type="button"].newer-posts, .button.special, .post-loop .pagination .older-posts, .post-loop .pagination .newer-posts {
     background-color: #49bf9d;
     color: #ffffff !important; }
     /* line 721, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-    input[type="submit"].special:hover, input[type="reset"].special:hover, input[type="button"].special:hover, .button.special:hover {
+    input[type="submit"].special:hover, .post-loop .pagination input[type="submit"].older-posts:hover, .post-loop .pagination input[type="submit"].newer-posts:hover, input[type="reset"].special:hover, .post-loop .pagination input[type="reset"].older-posts:hover, .post-loop .pagination input[type="reset"].newer-posts:hover, input[type="button"].special:hover, .post-loop .pagination input[type="button"].older-posts:hover, .post-loop .pagination input[type="button"].newer-posts:hover, .button.special:hover, .post-loop .pagination .older-posts:hover, .post-loop .pagination .newer-posts:hover {
       background-color: #5cc6a7; }
     /* line 725, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-    input[type="submit"].special:active, input[type="reset"].special:active, input[type="button"].special:active, .button.special:active {
+    input[type="submit"].special:active, .post-loop .pagination input[type="submit"].older-posts:active, .post-loop .pagination input[type="submit"].newer-posts:active, input[type="reset"].special:active, .post-loop .pagination input[type="reset"].older-posts:active, .post-loop .pagination input[type="reset"].newer-posts:active, input[type="button"].special:active, .post-loop .pagination input[type="button"].older-posts:active, .post-loop .pagination input[type="button"].newer-posts:active, .button.special:active, .post-loop .pagination .older-posts:active, .post-loop .pagination .newer-posts:active {
       background-color: #3eb08f; }
   /* line 731, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-  input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"].disabled, input[type="reset"]:disabled, input[type="button"].disabled, input[type="button"]:disabled, .button.disabled, .button:disabled {
+  input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"].disabled, input[type="reset"]:disabled, input[type="button"].disabled, input[type="button"]:disabled, .button.disabled, .post-loop .pagination .disabled.older-posts, .post-loop .pagination .disabled.newer-posts, .button:disabled, .post-loop .pagination .older-posts:disabled, .post-loop .pagination .newer-posts:disabled {
     background-color: #444 !important;
     box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
     color: #fff !important;
@@ -700,7 +700,7 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
         #header nav > ul > li:first-child {
           margin-left: 0; }
         /* line 808, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
-        #header nav > ul > li .button {
+        #header nav > ul > li .button, #header nav > ul > li .post-loop .pagination .older-posts, .post-loop .pagination #header nav > ul > li .older-posts, #header nav > ul > li .post-loop .pagination .newer-posts, .post-loop .pagination #header nav > ul > li .newer-posts {
           height: 2.25em;
           line-height: 2.25em;
           margin-bottom: 0;
@@ -792,5 +792,48 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
   /* line 923, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
   .grid-demo .row.flush > div:last-child span {
     border-radius: 0 4px 4px 0; }
+
+/* Ghost */
+/* Loop */
+/* line 938, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
+.post-loop header h2, .post-loop .author-meta h2 {
+  margin: 0 0 0.65em 0; }
+/* line 942, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
+.post-loop header h2 + p, .post-loop .author-meta h2 + p {
+  font-size: 0.9em;
+  margin-bottom: 0; }
+/* line 948, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
+.post-loop article {
+  margin: 0 0 1em 0;
+  min-height: 100px; }
+/* line 953, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
+.post-loop .pagination {
+  width: 100%;
+  text-align: center;
+  position: relative; }
+  /* line 958, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
+  .post-loop .pagination .older-posts, .post-loop .pagination .newer-posts {
+    position: absolute; }
+  /* line 964, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
+  .post-loop .pagination .older-posts {
+    right: 0; }
+  /* line 968, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
+  .post-loop .pagination .newer-posts {
+    left: 0; }
+
+/* Page */
+/* line 977, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
+.page-header {
+  text-align: center; }
+  /* line 980, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
+  .page-header h2 {
+    font-size: 2.5em; }
+
+/* Author */
+/* line 988, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style.scss */
+.author-image img {
+  width: 100%;
+  height: auto; }
+
 
 /*# sourceMappingURL=style.css.map */
