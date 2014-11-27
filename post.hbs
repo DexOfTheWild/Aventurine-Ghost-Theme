@@ -1,0 +1,26 @@
+{{!< default}}
+
+{{#post}}
+
+{{>intro/intro-post}}
+
+<section id="main" class="container">
+        <div class="row uniform">
+            <article class="{{post_class}} single 10u$ -1u">
+                <div class="post-container">
+                    <section class="blog-content"><ul class="archiveTest"></ul>{{content}}</section>
+                </div>
+            </article>
+            <footer class="10u$ -1u">
+                <div class="comment-area">
+                    {{>comment-box}}
+                </div>
+            </footer>
+        </div>
+</section>
+
+<script>
+    var blog = $('.blog-content');
+    crystalline.formatPost(blog);
+</script>
+{{/post}}

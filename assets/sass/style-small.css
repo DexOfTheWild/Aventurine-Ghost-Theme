@@ -1,0 +1,34 @@
+/* skel-baseline v2.0.0 | (c) n33 | getskel.com | MIT licensed */
+/* Basic */
+/* line 8, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-small.scss */
+body, input, select, textarea {
+  font-size: 12pt; }
+
+/* Banner */
+/* line 14, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-small.scss */
+#banner {
+  padding: 5em 2em 4em 2em; }
+  /* line 17, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-small.scss */
+  #banner h2 {
+    font-size: 2.25em; }
+  /* line 21, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-small.scss */
+  #banner p {
+    font-size: 1.25em; }
+
+/* Main */
+/* line 28, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-small.scss */
+#main {
+  padding: 2em 0; }
+
+/* Footer */
+/* line 34, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-small.scss */
+#footer {
+  padding: 2em 0; }
+  /* line 38, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-small.scss */
+  #footer .copyright li {
+    border-left: 0;
+    margin-left: 0;
+    padding-left: 0;
+    display: block; }
+
+/*# sourceMappingURL=style-small.css.map */

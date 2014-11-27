@@ -1,3 +1,15 @@
 # https://git-scm.com/docs/gitignore
 # https://help.github.com/articles/ignoring-files
 # Example .gitignore files: https://github.com/github/gitignore
+/assets/sass/style.css
+/assets/sass/style.css.map
+/assets/sass/style-xsmall.css.map
+/assets/sass/style-xsmall.css
+/assets/sass/style-xlarge.css.map
+/assets/sass/style-xlarge.css
+/assets/sass/style-small.css.map
+/assets/sass/style-small.css
+/assets/sass/style-medium.css.map
+/assets/sass/style-medium.css
+/assets/sass/style-large.css.map
+/assets/sass/style-large.css

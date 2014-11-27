@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "file": "style-xlarge.css",
+  "sources": ["..\/sass\/style-xlarge.scss","..\/sass\/_vars.scss","..\/sass\/_mixins.scss"],
+  "names": [],
+  "mappings": ";;;AAOA,MAAM,OAAO,QAAQ;EACnB,WAAW;;;;AAKb;EACE,SAAS"
+}

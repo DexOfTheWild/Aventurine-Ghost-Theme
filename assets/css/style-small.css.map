@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "file": "style-small.css",
+  "sources": ["..\/sass\/style-small.scss","..\/sass\/_vars.scss","..\/sass\/_mixins.scss"],
+  "names": [],
+  "mappings": ";;;AAOA,MAAM,OAAO,QAAQ;EACnB,WAAW;;;;AAKb;EACE,SAAS;;EAAX,QAAQ;IAGL,WAAW;;EACd,QAAQ;IAGL,WAAW;;;;AAMd;EACE,SAAS;;;;AAKX;EACE,SAAS;;EAEX,QAAQ,WAAW;IAEf,aAAa;IACb,aAAa;IACb,cAAc;IACd,SAAS"
+}

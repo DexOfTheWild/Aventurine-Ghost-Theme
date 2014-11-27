@@ -1,0 +1,22 @@
+{{! This is the post loop - each post will be output using this markup }}
+{{#foreach posts}}
+
+    <section class="6u loop-excerpt">
+        <div class="box">
+        <header class="post-header">
+            <h2 class="post-title">{{title}}</h2>
+            <p class="post-meta">Posted by {{author}} on <time class="blog-date" datetime="{{date format='MMMM DD, YYYY'}}">{{date format="MMMM DD, YYYY"}}</time></p>
+        </header>
+        <hr/>
+        <article class="post-content">
+            {{excerpt words="30"}}
+        </article>
+        <a href="{{url}}" class="button">Read More</a>
+        </div>
+    </section>
+{{/foreach}}
+
+<div class="12u">
+{{! Previous/next page links - displayed on every page }}
+{{pagination}}
+</div>

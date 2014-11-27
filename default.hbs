@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{! Document Settings }}
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    {{! Page Meta }}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+
+    <!--[if lte IE 8]><script src="{{asset "js/html5shiv.js"}}"></script><![endif]-->
+
+    {{! Styles'n'Scripts }}
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,600,700' rel='stylesheet' type='text/css'>
+
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+
+    <!-- SkelJS Framework by n33co -->
+    <script src="{{asset "js/skel.min.js"}}"></script>
+    <script src="{{asset "js/skel-layers.min.js"}}"></script>
+
+    <script type="text/javascript">
+        var themeUrl = '{{@blog.url}}';
+    </script>
+
+    <!-- Main JS Initialization -->
+    <script src="{{asset "js/init.js"}}"></script>
+
+    <noscript>
+        <link rel="stylesheet" href="{{asset "css/skel.css"}}" />
+        <link rel="stylesheet" href="{{asset "css/style.css"}}" />
+        <link rel="stylesheet" href="{{asset "css/style-xlarge.css"}}" />
+    </noscript>
+
+    {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+</head>
+<body id="top" class="{{body_class}}">
+
+    {{>header/header-default}}
+
+    {{! Everything else gets inserted here }}
+    {{{body}}}
+
+    <!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row double">
+						<div class="6u 12u$(2)">
+							<h2>Aliquam Interdum</h2>
+							<p>Ornare interdum nascetur enim lobortis nunc amet placerat pellentesque nascetur in adipiscing. Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan. Justo aliquet massa adipiscing cubilia eu accumsan id. Arcu accumsan faucibus vis ultricies adipiscing ornare ut. Mi accumsan. Justo aliquet massa adipiscing cubilia eu accumsan id lorem ipsum dolor.</p>
+						</div>
+						<div class="3u 6u(2) 12u$(3)">
+							<h3>Accumsan</h3>
+							<ul class="alt">
+								<li>Nascetur nunc varius commodo.</li>
+								<li>Vis id faucibus montes tempor</li>
+								<li>massa amet lobortis vel.</li>
+								<li>Nascetur nunc varius commodo.</li>
+							</ul>
+						</div>
+						<div class="3u$ 6u$(2) 12u$(3)">
+							<h3>Faucibus</h3>
+							<ul class="alt">
+								<li>Nascetur nunc varius commodo.</li>
+								<li>Vis id faucibus montes tempor</li>
+								<li>massa amet lobortis vel.</li>
+								<li>Nascetur nunc varius commodo.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					&copy; Untitled. All rights reserved.
+				</div>
+			</footer>
+
+    {{! Ghost outputs important scripts and data with this tag }}
+    {{ghost_foot}}
+
+</body>
+</html>

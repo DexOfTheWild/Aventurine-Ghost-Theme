@@ -1,0 +1,18 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+
+
+<section id="main" class="container">
+
+    <div class="row uniform">
+        <header class="page-header 12u">
+            <h2 class="page-title">{{tag.name}}</h2>
+            <p class="page-description">A collection of {{pagination.total}} post(s) with the tag {{tag.name}}.</p>
+        </header>
+    </div>
+
+    <div class="row 200% uniform post-loop">
+        {{! The tag below includes the post loop - partials/loop.hbs }}
+        {{> "loop"}}
+    </div>
+</section>
