@@ -1,0 +1,39 @@
+{{! This is the post loop - each post will be output using this markup }}
+
+<div class="row uniform">
+<header class="12u$ section-header"><h3>Latest Posts</h3><hr/></header>
+{{#foreach posts}}
+    {{#if @first}}
+        <section class="loop-image 8u 12u$(2)">
+            {{#if image}}<a href="{{url}}" class="feature-image"><img src="{{image}}" /></a>{{/if}}
+        </section>
+        <section class="loop-excerpt 4u$ 12u$(2)">
+            <div class="post-container">
+                <header class="post-header">
+                    <h3 class="post-title"><a href="{{url}}">{{title}}</a></h3>
+                    <p class="post-meta">by {{author}} on <time class="blog-date" datetime="{{date format='MMMM DD, YYYY'}}">{{date format="MMMM DD, YYYY"}}</time></p>
+                </header>
+                <article class="post-content">
+                    <p>{{excerpt characters="360"}}...</p>
+                </article>
+                <a href="{{url}}" class="read-more">Read More »</a>
+            </div>
+        </section>
+    {{else}}
+    <section class="4u 6u(2) loop-excerpt">
+        <div class="post-container">
+        {{#if image}}<a href="{{url}}" class="post-image"><img src="{{image}}" /></a>{{/if}}
+        <header class="post-header">
+            <h3 class="post-title"><a href="{{url}}">{{title}}</a></h3>
+            <p class="post-meta">by {{author}} on <time class="blog-date" datetime="{{date format='MMMM DD, YYYY'}}">{{date format="MMMM DD, YYYY"}}</time></p>
+        </header>
+        <article class="post-content">
+            <p>{{excerpt characters="180"}}...</p>
+        </article>
+        <a href="{{url}}" class="read-more">Read More »</a>
+        </div>
+    </section>
+    {{/if}}
+{{/foreach}}
+
+</div>
