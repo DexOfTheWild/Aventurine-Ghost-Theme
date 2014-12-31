@@ -850,8 +850,8 @@
     #sub-header{
         min-height:2.75em;
         line-height:2.75em;
-        border-top:solid 1px #ccc;
-        border-bottom:solid 1px #ccc;
+        border-top:solid $size-border-width $color-border;
+        border-bottom:solid $size-border-width $color-border;
         text-align:center;
         color:#ccc;
 
