@@ -1,17 +1,9 @@
 {{!< default}}
-{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
-
-{{! The big featured header }}
 
 {{! Everything inside the #author tags pulls data from the author }}
 <section id="main" class="container">
 {{#author}}
 <div class="row uniform">
-        {{#if image}}
-        <figure class="author-image 4u">
-            <img src="{{image}}" alt="" />
-        </figure>
-        {{/if}}
     <div class="author-meta 6u$">
         <h2 class="author-title">{{name}}</h2>
         <p class="author-meta">

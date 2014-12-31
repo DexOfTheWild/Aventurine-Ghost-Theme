@@ -1,47 +1,46 @@
-/* skel-baseline v2.0.0 | (c) n33 | getskel.com | MIT licensed */
 /* Basic */
-/* line 8, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-xsmall.scss */
+/* line 6, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
 html, body {
   min-width: 320px; }
 
-/* line 12, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-xsmall.scss */
+/* line 10, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
 body, input, select, textarea {
   font-size: 12pt; }
 
 /* List */
-/* line 19, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-xsmall.scss */
+/* line 17, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
 ul.actions {
   margin: 0 0 2em 0; }
-  /* line 22, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-xsmall.scss */
+  /* line 20, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
   ul.actions li {
     padding: 1em 0 0 0;
     display: block;
     text-align: center;
     width: 100%; }
-    /* line 28, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-xsmall.scss */
+    /* line 26, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
     ul.actions li:first-child {
       padding-top: 0; }
-    /* line 32, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-xsmall.scss */
+    /* line 30, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
     ul.actions li > * {
       width: 100%;
       margin: 0 !important; }
-      /* line 37, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-xsmall.scss */
+      /* line 35, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
       ul.actions li > *.icon:before {
         margin-left: -2em; }
-  /* line 45, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-xsmall.scss */
+  /* line 43, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
   ul.actions.small li {
     padding: 0.5em 0 0 0; }
-    /* line 48, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-xsmall.scss */
+    /* line 46, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
     ul.actions.small li:first-child {
       padding-top: 0; }
 
 /* Button */
-/* line 61, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-xsmall.scss */
+/* line 59, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
 input[type="submit"], input[type="reset"], input[type="button"], .button {
   padding: 0; }
 
 /* Banner */
-/* line 67, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-xsmall.scss */
+/* line 65, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
 #banner {
   padding: 5em 2em 4em 2em; }
 

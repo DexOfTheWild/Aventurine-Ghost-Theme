@@ -18,7 +18,7 @@
 
     {{! Styles'n'Scripts }}
     <!-- jQuery -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+    <script src="{{asset "js/jquery.min.js"}}" ></script>
 
     <!-- SkelJS Framework by n33co -->
     <script src="{{asset "js/skel.min.js"}}"></script>
@@ -30,6 +30,8 @@
 
     <!-- Main JS Initialization -->
     <script src="{{asset "js/init.js"}}"></script>
+    <link href='http://fonts.googleapis.com/css?family=Megrim:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:300,700' rel='stylesheet' type='text/css'>
 
     <noscript>
         <link rel="stylesheet" href="{{asset "css/skel.css"}}" />
@@ -49,34 +51,9 @@
 
     <!-- Footer -->
 			<footer id="footer">
-				<div class="container">
-					<div class="row double">
-						<div class="6u 12u$(2)">
-							<h2>Aliquam Interdum</h2>
-							<p>Ornare interdum nascetur enim lobortis nunc amet placerat pellentesque nascetur in adipiscing. Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan. Justo aliquet massa adipiscing cubilia eu accumsan id. Arcu accumsan faucibus vis ultricies adipiscing ornare ut. Mi accumsan. Justo aliquet massa adipiscing cubilia eu accumsan id lorem ipsum dolor.</p>
-						</div>
-						<div class="3u 6u(2) 12u$(3)">
-							<h3>Accumsan</h3>
-							<ul class="alt">
-								<li>Nascetur nunc varius commodo.</li>
-								<li>Vis id faucibus montes tempor</li>
-								<li>massa amet lobortis vel.</li>
-								<li>Nascetur nunc varius commodo.</li>
-							</ul>
-						</div>
-						<div class="3u$ 6u$(2) 12u$(3)">
-							<h3>Faucibus</h3>
-							<ul class="alt">
-								<li>Nascetur nunc varius commodo.</li>
-								<li>Vis id faucibus montes tempor</li>
-								<li>massa amet lobortis vel.</li>
-								<li>Nascetur nunc varius commodo.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
+                <div class="rss"><a href="{{blog.url}}/rss/" class="icon fa-rss"></a></div>
 				<div class="copyright">
-					&copy; Untitled. All rights reserved.
+					&copy; 2015 Aventurine. All rights reserved.
 				</div>
 			</footer>
 

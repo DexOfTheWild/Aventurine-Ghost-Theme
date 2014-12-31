@@ -1,14 +1,13 @@
-/* skel-baseline v2.0.0 | (c) n33 | getskel.com | MIT licensed */
 /* Basic */
-/* line 8, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-large.scss */
+/* line 6, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-large.scss */
 body, input, select, textarea {
   font-size: 11pt; }
 
 /* Banner */
-/* line 14, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-large.scss */
+/* line 12, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-large.scss */
 #banner {
   padding: 5em 0; }
-  /* line 17, /Users/alex/Documents/ghost-baseline/content/themes/baseline/assets/sass/style-large.scss */
+  /* line 15, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-large.scss */
   #banner h2 {
     font-size: 3.5em; }
 

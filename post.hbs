@@ -2,20 +2,37 @@
 
 {{#post}}
 
-{{>intro/intro-post}}
-
 <section id="main" class="container">
-        <div class="row uniform">
-            <article class="{{post_class}} single 10u$ -1u">
-                <div class="post-container">
-                    <section class="blog-content"><ul class="archiveTest"></ul>{{content}}</section>
+        <div class="row uniform 200%">
+            <aside class="author-box 4u">
+                <div class="post-author">
+                    {{#if author.image}}
+                    <div class="author-image">
+                        <img src="{{author.image}}" />
+                    </div>
+                    {{/if}}
+                    <div class="author-bio">
+                        <header>
+                            <h2>{{author.name}}</h2>
+                            {{#if author.website}}<p><a href="{{author.website}}">{{author.website}}</a></p>{{/if}}
+                        </header>
+                        <p>{{author.bio}}</p>
+                        {{>social-icons}}
+                    </div>
                 </div>
-            </article>
-            <footer class="10u$ -1u">
+            </aside>
+            <article class="{{post_class}} single 8u">
+                <div class="post-container">
+                    <header class="post-header">
+            <h1 class="post-title"><a href="{{url}}">{{title}}</a></h1>
+            <p class="post-meta">by {{author}} on <time class="blog-date" datetime="{{date format='MMMM DD, YYYY'}}">{{date format="MMMM DD, YYYY"}}</time></p>
+        </header>
+                    <section class="post-content"><ul class="archiveTest"></ul>{{content}}</section>
+                </div>
                 <div class="comment-area">
                     {{>comment-box}}
                 </div>
-            </footer>
+            </article>
         </div>
 </section>
 

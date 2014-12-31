@@ -1,5 +1,3 @@
-/* skel-baseline v2.0.0 | (c) n33 | getskel.com | MIT licensed */
-
 (function($) {
 
 	skel.init({
@@ -9,24 +7,24 @@
 			// Global.
 				global: {
 					href: '/assets/css/style.css',
-					containers: 1400,
+                    containers: 1400,
 					grid: {
-						gutters: ['2em', 0]
+						gutters: ['3em', '1.5em']
 					}
 				},
 
 			// XLarge.
 				xlarge: {
 					media: '(max-width: 1680px)',
+                    containers: 1260,
 					href: '/assets/css/style-xlarge.css',
-					containers: 1200
 				},
 
 			// Large.
 				large: {
 					media: '(max-width: 1280px)',
 					href: '/assets/css/style-large.css',
-					containers: 960,
+                    containers: 960,
 					grid: {
 						gutters: ['1.5em', 0]
 					},
@@ -103,8 +101,6 @@
 	});
 
 	$(function() {
-
-		// jQuery ready stuff.
 
 	});
 

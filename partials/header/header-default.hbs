@@ -1,9 +1,28 @@
 <!-- Header -->
-<header id="header" class="skel-layers-fixed">
-    <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
-    <nav id="nav">
-        <ul>
-            {{>menu}}
-        </ul>
-    </nav>
+<header id="header">
+    <div class="container">
+        <div class="12u">
+            <div class="header-container">
+                <h1><a href="{{@blog.url}}">Aventurine</a></h1>
+                <nav id="nav">
+                    <ul>
+                        {{>menu}}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
 </header>
+<aside id="sub-header" class="container">
+    <div class="row">
+        <div class="4u">
+            <span>This is sub-header content.</span>
+        </div>
+        <div class="4u">
+            {{>social-icons}}
+        </div>
+        <div class="4u">
+            <span>This is sub-header content.</span>
+        </div>
+    </div>
+</aside>

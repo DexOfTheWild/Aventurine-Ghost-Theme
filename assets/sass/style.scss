@@ -2,12 +2,10 @@
 @import 'mixins';
 @import 'font-awesome.min.css';
 
-/* skel-baseline v2.0.0 | (c) n33 | getskel.com | MIT licensed */
-
-/* Basic */
+/* Basics */
 
 	body {
-		background: $color-bg;
+		background-color: $color-bg;
 	}
 
 	body, input, select, textarea {
@@ -38,11 +36,11 @@
 
 	p {
 		margin: 0 0 $size-element-margin 0;
+        line-height:2em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: $color-fg-bold;
-		font-weight: $font-weight-bold;
+		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 ($size-element-margin * 0.5) 0;
 
@@ -52,13 +50,18 @@
 		}
 	}
 
+    h1 {
+		font-size: 2.25em;
+		line-height: 1em;
+	}
+
 	h2 {
 		font-size: 1.75em;
 		line-height: 1.5em;
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 1.55em;
 		line-height: 1.5em;
 	}
 
@@ -159,15 +162,21 @@
 			margin: 0 0 ($size-element-margin * 0.75) 0;
 		}
 
+        h1 + p {
+			font-size: 1em;
+			margin-top: ($size-element-margin * -0.25);
+			line-height: 1.5em;
+		}
+
 		h2 + p {
 			font-size: 1.25em;
-			margin-top: ($size-element-margin * -0.5);
+			margin-top: ($size-element-margin * -0.25);
 			line-height: 1.5em;
 		}
 
 		h3 + p {
-			font-size: 1.1em;
-			margin-top: ($size-element-margin * -0.4);
+			font-size: 0.9em;
+			margin-top: ($size-element-margin * -0.25);
 			line-height: 1.5em;
 		}
 
@@ -178,6 +187,10 @@
 			margin-top: ($size-element-margin * -0.3);
 			line-height: 1.5em;
 		}
+
+        &.section-header{
+            text-align:left;
+        }
 	}
 
 	footer {
@@ -203,7 +216,7 @@
 	select,
 	textarea {
 		@include vendor-property('appearance', 'none');
-		background: $color-border-bg;
+		background: $color-bg;
 		border-radius: $size-border-radius;
 		border: none;
 		border: solid $size-border-width $color-border;
@@ -216,11 +229,6 @@
 
 		&:invalid {
 			box-shadow: none;
-		}
-
-		&:focus {
-			border-color: $color-accent-bg;
-			box-shadow: 0 0 0 $size-border-width $color-accent-bg;
 		}
 	}
 
@@ -482,7 +490,8 @@
 
 				.icon {
 					&:before {
-						font-size: 2em;
+                        font-size:1.25em;
+                        color:inherit;
 					}
 				}
 			}
@@ -739,45 +748,48 @@
 
 /* Header */
 
-	//body {
-	#skel-layers-wrapper {
-		padding-top: 3em;
-	}
-
 	#header {
-		background: #444;
-		color: #fff;
+		color: $color-fg;
 		cursor: default;
-		height: 3.25em;
-		left: 0;
-		line-height: 3.25em;
-		position: fixed;
-		top: 0;
 		width: 100%;
+        height:3em;
+        line-height:3em;
+        margin:6em 0;
 		z-index: 10000;
+        text-align: center;
+        position:relative;
 
 		h1 {
-			color: #fff;
-			height: inherit;
-			left: 1.25em;
-			line-height: inherit;
-			margin: 0;
+            @include vendor-property('transition', 'color #{$duration-transition} ease-in-out');
+			color:$color-fg;
+            font-family: $font-family-display;
+            position:absolute;
+            height:inherit;
+            line-height: inherit;
+            left:0;
+            font-size:1em;
+            top:0;
+			margin-bottom: 0.75em;
 			padding: 0;
-			position: absolute;
-			top: 0;
+            text-transform: uppercase;
+            letter-spacing:10px;
+
+            &:hover{
+                color:$color-accent-bg;
+            }
 
 			a {
-				font-size: 1.25em;
+                font-size:2.25em;
 			}
 		}
 
 		nav {
 			height: inherit;
 			line-height: inherit;
-			position: absolute;
-			right: 1.25em;
-			top: 0;
 			vertical-align: middle;
+            position:absolute;
+            right:0;
+            top:0;
 
 			> ul {
 				list-style: none;
@@ -787,17 +799,18 @@
 				> li {
 					border-radius: $size-border-radius;
 					display: inline-block;
-					margin-left: 1em;
+					margin-left: 1.5em;
 					padding-left: 0;
 
 					a {
 						@include vendor-property('transition', 'color #{$duration-transition} ease-in-out');
-						color: #ccc;
+						color: $color-fg;
 						display: inline-block;
 						text-decoration: none;
+                        font-weight:300;
 
 						&:hover {
-							color: #fff;
+							color: $color-accent-bg;
 						}
 					}
 
@@ -831,44 +844,69 @@
 		}
 	}
 
+    #sub-header{
+        height:2.75em;
+        line-height:2.75em;
+        border-top:solid 1px #ccc;
+        border-bottom:solid 1px #ccc;
+        margin-bottom:3em;
+        text-align:center;
+        color:#ccc;
+
+        ul{
+            margin:0;
+        }
+
+        a{
+            color:inherit;
+        }
+    }
 /* Banner */
 
-	#banner {
-		background: #f6f6f6;
-		padding: 8em 0;
+	#feature {
+		padding: 2em 0;
 		text-align: center;
 
 		:last-child {
 			margin-bottom: 0;
 		}
+        .post-header{
 
-		h2 {
-			font-size: 4em;
-			line-height: 1em;
-			margin: 0 0 0.5em 0;
-			padding: 0;
-		}
+            h2 {
+                font-size: 4em;
+                line-height: 1em;
+                margin: 0 0 0.5em 0;
+                padding: 0;
+            }
 
-		p {
-			font-size: 1.5em;
-			margin-bottom: 1.75em;
-		}
+        }
 	}
 
 /* Main */
 
 	#main {
-		padding: 4em 0;
+		padding: 1em 0;
 	}
 
 /* Footer */
 
 	#footer {
-		background: #f2f2f2;
-		padding: 4em 0;
+		background: $color-accent-bg;
+		padding: 2em 0;
+        margin-top:4em;
+        color:$color-bg;
+        text-align:center;
+
+        .icon{
+            font-size:1.5em;
+        }
+
+        a{
+            color:inherit;
+        }
 
 		.copyright {
-			color: $color-fg-light;
+			color: inherit;
 			font-size: 0.9em;
 			margin: 2em 0 0 0;
 			padding: 0;
@@ -890,47 +928,8 @@
 		}
 	}
 
-/* Grid Demo */
 
-	.grid-demo {
-		display: block;
-		margin: 0 0 $size-element-margin 0;
-
-		span {
-			background: lighten($color-accent-bg, 35);
-			border-radius: $size-border-radius;
-			color: rgba(0,0,0,0.25);
-			display: block;
-			font-weight: $font-weight-bold;
-			height: $size-element-height;
-			line-height: $size-element-height;
-			text-align: center;
-		}
-
-		.row.flush {
-			> div {
-				span {
-					border-radius: 0;
-				}
-
-				&:first-child {
-					span {
-						border-radius: $size-border-radius 0 0 $size-border-radius;
-					}
-				}
-
-				&:last-child {
-					span {
-						border-radius: 0 $size-border-radius $size-border-radius 0;
-					}
-				}
-			}
-		}
-	}
-
-
-/* Ghost */
-
+/* Ghost Stuff */
 /* Loop */
 
 .post-loop{
@@ -971,6 +970,45 @@
     }
 }
 
+.loop-excerpt{
+    text-align:left;
+
+    .post-header, .post-image{
+        margin-bottom:0.5em;
+        h1,h2,h3,h4,h5,h6{
+            font-weight:300;
+        }
+    }
+    .post-content{
+        h1,h2,h3,h4,h5,h6{
+            font-size:1em;
+            margin:0;
+        }
+
+        p{
+            margin:1.5em 0 !important;
+        }
+    }
+}
+
+.feature-image, .post-image{
+    width:100%;
+    overflow: hidden;
+    display:block;
+
+    img{
+        width:inherit;
+    }
+}
+
+.feature-image{
+    height:25em;
+}
+
+.post-image{
+    height:15em;
+}
+
 
 /* Page */
 
@@ -986,16 +1024,13 @@
 
 .author-image{
     img{
-        width:100%;
-        height:auto;
+        width:150px;
+        height:150px;
+        border-radius:100%;
+        overflow: hidden;
     }
 }
 
 .author-meta{
     @extend header;
 }
-
-
-
-
-
