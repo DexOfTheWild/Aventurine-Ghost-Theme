@@ -31,9 +31,13 @@ body, input, select, textarea {
     display: block; }
 
 /* line 46, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-small.scss */
+.section-header hr {
+  display: none; }
+
+/* line 52, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-small.scss */
 .loop-excerpt .post-header h3.post-featured {
   padding-bottom: 1em; }
-  /* line 48, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-small.scss */
+  /* line 54, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-small.scss */
   .loop-excerpt .post-header h3.post-featured::after {
     display: block;
     margin-left: 0; }

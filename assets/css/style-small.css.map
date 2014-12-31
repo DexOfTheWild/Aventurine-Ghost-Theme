@@ -3,5 +3,5 @@
   "file": "style-small.css",
   "sources": ["..\/sass\/style-small.scss","..\/sass\/_vars.scss","..\/sass\/_mixins.scss"],
   "names": [],
-  "mappings": ";;AAKA,MAAM,OAAO,QAAQ;EACnB,WAAW;;;;AAKb;EACE,SAAS;;EAAX,QAAQ;IAGL,WAAW;;EACd,QAAQ;IAGL,WAAW;;;;AAMd;EACE,SAAS;;;;AAKX;EACE,SAAS;;EAEX,QAAQ,WAAW;IAEf,aAAa;IACb,aAAa;IACb,cAAc;IACd,SAAS;;;AAKb,cAAc,aAAa,EAAE;EAEb,gBAAe;;EAA/B,cAAc,aAAa,EAAE,cAAc;IAEvB,SAAQ;IACR,aAAY"
+  "mappings": ";;AAKA,MAAM,OAAO,QAAQ;EACnB,WAAW;;;;AAKb;EACE,SAAS;;EAAX,QAAQ;IAGL,WAAW;;EACd,QAAQ;IAGL,WAAW;;;;AAMd;EACE,SAAS;;;;AAKX;EACE,SAAS;;EAEX,QAAQ,WAAW;IAEf,aAAa;IACb,aAAa;IACb,cAAc;IACd,SAAS;;;AAKb,gBAAgB;EAEJ,SAAQ;;;AAIpB,cAAc,aAAa,EAAE;EAEjB,gBAAe;;EAA3B,cAAc,aAAa,EAAE,cAAc;IAE3B,SAAQ;IACR,aAAY"
 }
