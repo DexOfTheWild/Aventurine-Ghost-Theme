@@ -850,33 +850,45 @@ input[type="submit"], input[type="reset"], input[type="button"], .button, .post-
   .loop-excerpt .post-content p {
     margin: 1.5em 0 !important; }
 
-/* line 994, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 995, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+.post-featured:after {
+  content: 'Featured Post';
+  position: absolute;
+  background-color: #8CD9D3;
+  color: #fff;
+  padding: 0.25em 0.5em;
+  font-size: 0.5em;
+  margin-top: 0.65em;
+  line-height: 1.25em;
+  margin-left: 1.5em; }
+
+/* line 1008, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .feature-image, .post-image {
   width: 100%;
   overflow: hidden;
   display: block; }
-  /* line 999, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 1013, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .feature-image img, .post-image img {
     width: inherit; }
 
-/* line 1004, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 1018, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .feature-image {
   height: 25em; }
 
-/* line 1008, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 1022, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .post-image {
   height: 15em; }
 
 /* Page */
-/* line 1015, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 1029, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .page-header {
   text-align: center; }
-  /* line 1018, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 1032, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .page-header h2 {
     font-size: 2.5em; }
 
 /* Author */
-/* line 1026, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 1040, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .author-image img {
   width: 150px;
   height: 150px;

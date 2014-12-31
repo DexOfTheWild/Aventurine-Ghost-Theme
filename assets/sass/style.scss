@@ -991,6 +991,20 @@
     }
 }
 
+.post-featured{
+    &:after{
+        content:'Featured Post';
+        position:absolute;
+        background-color:$color-accent-bg;
+        color:$color-bg;
+        padding:0.25em 0.5em;
+        font-size:0.5em;
+        margin-top:0.65em;
+        line-height:1.25em;
+        margin-left:1.5em;
+    }
+}
+
 .feature-image, .post-image{
     width:100%;
     overflow: hidden;

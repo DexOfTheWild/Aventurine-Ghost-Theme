@@ -9,7 +9,7 @@
     <section class="loop-excerpt 4u$ 12u$(2)">
         <div class="post-container">
             <header class="post-header">
-                <h3 class="post-title"><a href="{{url}}">{{title}}</a></h3>
+                <h3 class="post-title {{#if featured}}post-featured{{/if}}"><a href="{{url}}">{{title}}</a></h3>
                 <p class="post-meta">by {{author}} on <time class="blog-date" datetime="{{date format='MMMM DD, YYYY'}}">{{date format="MMMM DD, YYYY"}}</time></p>
             </header>
             <article class="post-content">
@@ -21,3 +21,4 @@
     <div class="12u$"><hr/></div>
 {{/foreach}}
 </div>
+d
