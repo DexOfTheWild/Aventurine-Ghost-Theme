@@ -44,4 +44,19 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
 #banner {
   padding: 5em 2em 4em 2em; }
 
+/* line 69, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
+#header {
+  margin: 6em 0 3em 0; }
+  /* line 71, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
+  #header h1 {
+    font-size: 1em; }
+
+/* line 76, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
+#sub-header {
+  margin-bottom: 1em; }
+
+/* line 80, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-xsmall.scss */
+.feature-image {
+  height: auto; }
+
 /*# sourceMappingURL=style-xsmall.css.map */

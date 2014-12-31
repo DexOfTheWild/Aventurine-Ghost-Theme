@@ -41,3 +41,19 @@
 			}
 		}
 	}
+
+    .section-header{
+        hr{
+            display:none;
+        }
+    }
+
+    .loop-excerpt .post-header h3{
+        &.post-featured{
+            padding-bottom:1em;
+            &::after{
+                display:block;
+                margin-left:0;
+            }
+        }
+    }

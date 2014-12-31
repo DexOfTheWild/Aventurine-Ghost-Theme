@@ -3,6 +3,7 @@
 <div class="row uniform">
 <header class="12u$ section-header"><h3>Latest Posts</h3><hr/></header>
 {{#foreach posts}}
+    <div class="row uniform">
     <section class="loop-image 8u 12u$(2)">
         {{#if image}}<a href="{{url}}" class="feature-image"><img src="{{image}}" /></a>{{/if}}
     </section>
@@ -19,6 +20,6 @@
         </div>
     </section>
     <div class="12u$"><hr/></div>
+    </div>
 {{/foreach}}
 </div>
-d

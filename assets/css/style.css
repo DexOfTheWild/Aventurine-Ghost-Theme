@@ -170,13 +170,16 @@ header h4 + p, .author-meta h4 + p, header h5 + p, .author-meta h5 + p, header h
 /* line 191, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 header.section-header, .section-header.author-meta {
   text-align: left; }
+  /* line 193, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  header.section-header h1, .section-header.author-meta h1, header.section-header h2, .section-header.author-meta h2, header.section-header h3, .section-header.author-meta h3, header.section-header h4, .section-header.author-meta h4, header.section-header h5, .section-header.author-meta h5, header.section-header h6, .section-header.author-meta h6 {
+    margin: 0; }
 
 /* Form */
-/* line 201, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 204, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 form {
   margin: 0 0 2em 0; }
 
-/* line 205, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 208, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 label {
   color: #666;
   display: block;
@@ -184,7 +187,7 @@ label {
   font-weight: bold;
   margin: 0 0 1em 0; }
 
-/* line 217, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 220, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 input[type="text"], input[type="password"], input[type="email"], select, textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -201,11 +204,11 @@ input[type="text"], input[type="password"], input[type="email"], select, textare
   padding: 0 1em;
   text-decoration: none;
   width: 100%; }
-  /* line 230, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 233, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   input[type="text"]:invalid, input[type="password"]:invalid, input[type="email"]:invalid, select:invalid, textarea:invalid {
     box-shadow: none; }
 
-/* line 235, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 238, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .select-wrapper {
   text-decoration: none;
   display: block;
@@ -219,7 +222,7 @@ input[type="text"], input[type="password"], input[type="email"], select, textare
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
-  /* line 240, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 243, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .select-wrapper:before {
     color: rgba(144, 144, 144, 0.25);
     display: block;
@@ -231,19 +234,19 @@ input[type="text"], input[type="password"], input[type="email"], select, textare
     text-align: center;
     top: 0;
     width: 2.75em; }
-  /* line 253, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 256, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .select-wrapper select::-ms-expand {
     display: none; }
 
-/* line 261, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 264, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 input[type="text"], input[type="password"], input[type="email"], select {
   height: 2.75em; }
 
-/* line 265, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 268, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 textarea {
   padding: 0.75em 1em; }
 
-/* line 270, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 273, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 input[type="checkbox"], input[type="radio"] {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -256,7 +259,7 @@ input[type="checkbox"], input[type="radio"] {
   opacity: 0;
   width: 1em;
   z-index: -1; }
-  /* line 279, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 282, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   input[type="checkbox"] + label, input[type="radio"] + label {
     text-decoration: none;
     color: #444;
@@ -275,7 +278,7 @@ input[type="checkbox"], input[type="radio"] {
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
-    /* line 290, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 293, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     input[type="checkbox"] + label:before, input[type="radio"] + label:before {
       background: rgba(144, 144, 144, 0.075);
       border-radius: 4px;
@@ -289,68 +292,68 @@ input[type="checkbox"], input[type="radio"] {
       text-align: center;
       top: 0;
       width: 1.65em; }
-  /* line 307, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 310, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   input[type="checkbox"]:checked + label:before, input[type="radio"]:checked + label:before {
     background: #666666;
     border-color: #666666;
     color: #ffffff;
     content: '\f00c'; }
-  /* line 316, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 319, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   input[type="checkbox"]:focus + label:before, input[type="radio"]:focus + label:before {
     border-color: #8CD9D3;
     box-shadow: 0 0 0 1px #8CD9D3; }
 
-/* line 325, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 328, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 input[type="checkbox"] + label:before {
   border-radius: 4px; }
 
-/* line 333, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 336, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 input[type="radio"] + label:before {
   border-radius: 100%; }
 
-/* line 339, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 342, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 ::-webkit-input-placeholder {
   color: #bbb !important;
   opacity: 1; }
 
-/* line 344, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 347, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 :-moz-placeholder {
   color: #bbb !important;
   opacity: 1; }
 
-/* line 349, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 352, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 ::-moz-placeholder {
   color: #bbb !important;
   opacity: 1; }
 
-/* line 354, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 357, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 :-ms-input-placeholder {
   color: #bbb !important;
   opacity: 1; }
 
-/* line 359, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 362, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .formerize-placeholder {
   color: #bbb !important;
   opacity: 1; }
 
 /* Box */
-/* line 366, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 369, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .box {
   border-radius: 4px;
   border: solid 1px rgba(144, 144, 144, 0.25);
   margin-bottom: 2em;
   padding: 1.5em; }
-  /* line 374, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 377, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .box > :last-child, .box > :last-child > :last-child, .box > :last-child > :last-child > :last-child {
     margin-bottom: 0; }
-  /* line 378, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 381, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .box.alt {
     border: 0;
     border-radius: 0;
     padding: 0; }
 
 /* Icon */
-/* line 387, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 390, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .icon {
   text-decoration: none;
   border-bottom: none;
@@ -363,207 +366,207 @@ input[type="radio"] + label:before {
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
-  /* line 392, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 395, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .icon > .label {
     display: none; }
 
 /* Image */
-/* line 399, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 402, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .image {
   border-radius: 4px;
   border: 0;
   display: inline-block;
   position: relative; }
-  /* line 405, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 408, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .image img {
     border-radius: 4px;
     display: block; }
-  /* line 410, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 413, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .image.left {
     float: left;
     padding: 0 1.5em 1em 0;
     top: 0.25em; }
-  /* line 416, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 419, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .image.right {
     float: right;
     padding: 0 0 1em 1.5em;
     top: 0.25em; }
-  /* line 423, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 426, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .image.left, .image.right {
     max-width: 40%; }
-    /* line 426, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 429, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     .image.left img, .image.right img {
       width: 100%; }
-  /* line 431, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 434, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .image.fit {
     display: block;
     margin: 0 0 2em 0;
     width: 100%; }
-    /* line 436, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 439, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     .image.fit img {
       width: 100%; }
 
 /* List */
-/* line 444, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 447, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 ol {
   list-style: decimal;
   margin: 0 0 2em 0;
   padding-left: 1.25em; }
-  /* line 449, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 452, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   ol li {
     padding-left: 0.25em; }
 
-/* line 454, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 457, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 ul {
   list-style: disc;
   margin: 0 0 2em 0;
   padding-left: 1em; }
-  /* line 459, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 462, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   ul li {
     padding-left: 0.5em; }
-  /* line 463, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 466, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   ul.alt {
     list-style: none;
     padding-left: 0; }
-    /* line 467, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 470, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     ul.alt li {
       border-top: solid 1px rgba(144, 144, 144, 0.25);
       padding: 0.5em 0; }
-      /* line 471, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+      /* line 474, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
       ul.alt li:first-child {
         border-top: 0;
         padding-top: 0; }
-  /* line 478, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 481, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   ul.icons {
     cursor: default;
     list-style: none;
     padding-left: 0; }
-    /* line 483, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 486, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     ul.icons li {
       display: inline-block;
       padding: 0 1em 0 0; }
-      /* line 487, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+      /* line 490, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
       ul.icons li:last-child {
         padding-right: 0; }
-      /* line 492, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+      /* line 495, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
       ul.icons li .icon:before {
         font-size: 1.25em;
         color: inherit; }
-  /* line 500, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 503, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   ul.actions {
     cursor: default;
     list-style: none;
     padding-left: 0; }
-    /* line 505, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 508, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     ul.actions li {
       display: inline-block;
       padding: 0 1em 0 0;
       vertical-align: middle; }
-      /* line 510, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+      /* line 513, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
       ul.actions li:last-child {
         padding-right: 0; }
-    /* line 516, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 519, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     ul.actions.small li {
       padding: 0 0.5em 0 0; }
-    /* line 522, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 525, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     ul.actions.vertical li {
       display: block;
       padding: 1em 0 0 0; }
-      /* line 526, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+      /* line 529, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
       ul.actions.vertical li:first-child {
         padding-top: 0; }
-      /* line 530, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+      /* line 533, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
       ul.actions.vertical li > * {
         margin-bottom: 0; }
-    /* line 536, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 539, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     ul.actions.vertical.small li {
       padding: 0.5em 0 0 0; }
-      /* line 539, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+      /* line 542, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
       ul.actions.vertical.small li:first-child {
         padding-top: 0; }
-    /* line 546, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 549, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     ul.actions.fit {
       display: table;
       margin-left: -1em;
       padding: 0;
       table-layout: fixed;
       width: calc(100% + 1em); }
-      /* line 553, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+      /* line 556, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
       ul.actions.fit li {
         display: table-cell;
         padding: 0 0 0 1em; }
-        /* line 557, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+        /* line 560, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
         ul.actions.fit li > * {
           margin-bottom: 0; }
-      /* line 562, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+      /* line 565, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
       ul.actions.fit.small {
         margin-left: -0.5em;
         width: calc(100% + 0.5em); }
-        /* line 566, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+        /* line 569, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
         ul.actions.fit.small li {
           padding: 0 0 0 0.5em; }
 
-/* line 574, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 577, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 dl {
   margin: 0 0 2em 0; }
 
 /* Table */
-/* line 580, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 583, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .table-wrapper {
   -webkit-overflow-scrolling: touch;
   overflow-x: auto; }
 
-/* line 585, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 588, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 table {
   margin: 0 0 2em 0;
   width: 100%; }
-  /* line 590, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 593, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   table tbody tr {
     border: solid 1px rgba(144, 144, 144, 0.25);
     border-left: 0;
     border-right: 0; }
-    /* line 595, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 598, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     table tbody tr:nth-child(2n+1) {
       background-color: rgba(144, 144, 144, 0.075); }
-  /* line 601, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 604, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   table td {
     padding: 0.75em 0.75em; }
-  /* line 605, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 608, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   table th {
     color: #666;
     font-size: 0.9em;
     font-weight: bold;
     padding: 0 0.75em 0.75em 0.75em;
     text-align: left; }
-  /* line 613, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 616, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   table thead {
     border-bottom: solid 2px rgba(144, 144, 144, 0.25); }
-  /* line 617, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 620, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   table tfoot {
     border-top: solid 2px rgba(144, 144, 144, 0.25); }
-  /* line 621, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 624, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   table.alt {
     border-collapse: separate; }
-    /* line 626, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 629, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     table.alt tbody tr td {
       border: solid 1px rgba(144, 144, 144, 0.25);
       border-left-width: 0;
       border-top-width: 0; }
-      /* line 631, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+      /* line 634, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
       table.alt tbody tr td:first-child {
         border-left-width: 1px; }
-    /* line 637, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 640, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     table.alt tbody tr:first-child td {
       border-top-width: 1px; }
-    /* line 644, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 647, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     table.alt thead {
       border-bottom: 0; }
-    /* line 648, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 651, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     table.alt tfoot {
       border-top: 0; }
 
 /* Button */
-/* line 659, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 662, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 input[type="submit"], input[type="reset"], input[type="button"], .button, .post-loop .pagination .older-posts, .post-loop .pagination .newer-posts {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -588,54 +591,54 @@ input[type="submit"], input[type="reset"], input[type="button"], .button, .post-
   text-align: center;
   text-decoration: none;
   white-space: nowrap; }
-  /* line 676, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 679, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:hover, .post-loop .pagination .older-posts:hover, .post-loop .pagination .newer-posts:hover {
     background-color: #737373; }
-  /* line 680, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 683, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, .button:active, .post-loop .pagination .older-posts:active, .post-loop .pagination .newer-posts:active {
     background-color: #595959; }
-  /* line 684, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 687, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   input[type="submit"].icon, input[type="reset"].icon, input[type="button"].icon, .button.icon, .post-loop .pagination .icon.older-posts, .post-loop .pagination .icon.newer-posts {
     padding-left: 1.35em; }
-    /* line 687, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 690, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     input[type="submit"].icon:before, input[type="reset"].icon:before, input[type="button"].icon:before, .button.icon:before, .post-loop .pagination .icon.older-posts:before, .post-loop .pagination .icon.newer-posts:before {
       margin-right: 0.5em; }
-  /* line 692, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 695, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   input[type="submit"].fit, input[type="reset"].fit, input[type="button"].fit, .button.fit, .post-loop .pagination .fit.older-posts, .post-loop .pagination .fit.newer-posts {
     display: block;
     margin: 0 0 1em 0;
     width: 100%; }
-  /* line 698, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 701, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   input[type="submit"].small, input[type="reset"].small, input[type="button"].small, .button.small, .post-loop .pagination .small.older-posts, .post-loop .pagination .small.newer-posts {
     font-size: 0.8em; }
-  /* line 702, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 705, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   input[type="submit"].big, input[type="reset"].big, input[type="button"].big, .button.big, .post-loop .pagination .big.older-posts, .post-loop .pagination .big.newer-posts {
     font-size: 1.35em; }
-  /* line 706, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 709, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   input[type="submit"].alt, input[type="reset"].alt, input[type="button"].alt, .button.alt, .post-loop .pagination .alt.older-posts, .post-loop .pagination .alt.newer-posts {
     background-color: transparent;
     box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
     color: #666 !important; }
-    /* line 711, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 714, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     input[type="submit"].alt:hover, input[type="reset"].alt:hover, input[type="button"].alt:hover, .button.alt:hover, .post-loop .pagination .alt.older-posts:hover, .post-loop .pagination .alt.newer-posts:hover {
       background-color: rgba(144, 144, 144, 0.075); }
-    /* line 715, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 718, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     input[type="submit"].alt:active, input[type="reset"].alt:active, input[type="button"].alt:active, .button.alt:active, .post-loop .pagination .alt.older-posts:active, .post-loop .pagination .alt.newer-posts:active {
       background-color: rgba(144, 144, 144, 0.2); }
-    /* line 720, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 723, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     input[type="submit"].alt.icon:before, input[type="reset"].alt.icon:before, input[type="button"].alt.icon:before, .button.alt.icon:before, .post-loop .pagination .alt.icon.older-posts:before, .post-loop .pagination .alt.icon.newer-posts:before {
       color: #bbb; }
-  /* line 726, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 729, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   input[type="submit"].special, .post-loop .pagination input[type="submit"].older-posts, .post-loop .pagination input[type="submit"].newer-posts, input[type="reset"].special, .post-loop .pagination input[type="reset"].older-posts, .post-loop .pagination input[type="reset"].newer-posts, input[type="button"].special, .post-loop .pagination input[type="button"].older-posts, .post-loop .pagination input[type="button"].newer-posts, .button.special, .post-loop .pagination .older-posts, .post-loop .pagination .newer-posts {
     background-color: #8CD9D3;
     color: #ffffff !important; }
-    /* line 730, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 733, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     input[type="submit"].special:hover, .post-loop .pagination input[type="submit"].older-posts:hover, .post-loop .pagination input[type="submit"].newer-posts:hover, input[type="reset"].special:hover, .post-loop .pagination input[type="reset"].older-posts:hover, .post-loop .pagination input[type="reset"].newer-posts:hover, input[type="button"].special:hover, .post-loop .pagination input[type="button"].older-posts:hover, .post-loop .pagination input[type="button"].newer-posts:hover, .button.special:hover, .post-loop .pagination .older-posts:hover, .post-loop .pagination .newer-posts:hover {
       background-color: #9fdfda; }
-    /* line 734, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 737, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     input[type="submit"].special:active, .post-loop .pagination input[type="submit"].older-posts:active, .post-loop .pagination input[type="submit"].newer-posts:active, input[type="reset"].special:active, .post-loop .pagination input[type="reset"].older-posts:active, .post-loop .pagination input[type="reset"].newer-posts:active, input[type="button"].special:active, .post-loop .pagination input[type="button"].older-posts:active, .post-loop .pagination input[type="button"].newer-posts:active, .button.special:active, .post-loop .pagination .older-posts:active, .post-loop .pagination .newer-posts:active {
       background-color: #79d3cc; }
-  /* line 740, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 743, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"].disabled, input[type="reset"]:disabled, input[type="button"].disabled, input[type="button"]:disabled, .button.disabled, .post-loop .pagination .disabled.older-posts, .post-loop .pagination .disabled.newer-posts, .button:disabled, .post-loop .pagination .older-posts:disabled, .post-loop .pagination .newer-posts:disabled {
     background-color: #444 !important;
     box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
@@ -644,7 +647,7 @@ input[type="submit"], input[type="reset"], input[type="button"], .button, .post-
     opacity: 0.25; }
 
 /* Header */
-/* line 751, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 754, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 #header {
   color: #444;
   cursor: default;
@@ -655,7 +658,7 @@ input[type="submit"], input[type="reset"], input[type="button"], .button, .post-
   z-index: 10000;
   text-align: center;
   position: relative; }
-  /* line 762, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 765, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   #header h1 {
     -moz-transition: color 0.2s ease-in-out;
     -webkit-transition: color 0.2s ease-in-out;
@@ -674,13 +677,13 @@ input[type="submit"], input[type="reset"], input[type="button"], .button, .post-
     padding: 0;
     text-transform: uppercase;
     letter-spacing: 10px; }
-    /* line 777, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 780, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     #header h1:hover {
       color: #8CD9D3; }
-    /* line 781, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 784, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     #header h1 a {
       font-size: 2.25em; }
-  /* line 786, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 789, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   #header nav {
     height: inherit;
     line-height: inherit;
@@ -688,18 +691,18 @@ input[type="submit"], input[type="reset"], input[type="button"], .button, .post-
     position: absolute;
     right: 0;
     top: 0; }
-    /* line 794, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 797, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     #header nav > ul {
       list-style: none;
       margin: 0;
       padding-left: 0; }
-      /* line 799, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+      /* line 802, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
       #header nav > ul > li {
         border-radius: 4px;
         display: inline-block;
         margin-left: 1.5em;
         padding-left: 0; }
-        /* line 805, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+        /* line 808, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
         #header nav > ul > li a {
           -moz-transition: color 0.2s ease-in-out;
           -webkit-transition: color 0.2s ease-in-out;
@@ -710,13 +713,13 @@ input[type="submit"], input[type="reset"], input[type="button"], .button, .post-
           display: inline-block;
           text-decoration: none;
           font-weight: 300; }
-          /* line 812, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+          /* line 815, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
           #header nav > ul > li a:hover {
             color: #8CD9D3; }
-        /* line 817, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+        /* line 820, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
         #header nav > ul > li:first-child {
           margin-left: 0; }
-        /* line 821, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+        /* line 824, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
         #header nav > ul > li .button, #header nav > ul > li .post-loop .pagination .older-posts, .post-loop .pagination #header nav > ul > li .older-posts, #header nav > ul > li .post-loop .pagination .newer-posts, .post-loop .pagination #header nav > ul > li .newer-posts {
           height: 2.25em;
           line-height: 2.25em;
@@ -725,41 +728,41 @@ input[type="submit"], input[type="reset"], input[type="button"], .button, .post-
           position: relative;
           top: -0.075em;
           vertical-align: middle; }
-  /* line 834, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 837, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   #header .container {
     position: relative; }
-    /* line 837, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 840, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     #header .container h1 {
       left: 0; }
-    /* line 841, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 844, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     #header .container nav {
       right: 0; }
 
-/* line 847, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 850, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 #sub-header {
-  height: 2.75em;
+  min-height: 2.75em;
   line-height: 2.75em;
   border-top: solid 1px #ccc;
   border-bottom: solid 1px #ccc;
   margin-bottom: 3em;
   text-align: center;
   color: #ccc; }
-  /* line 856, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 859, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   #sub-header ul {
     margin: 0; }
-  /* line 860, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 863, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   #sub-header a {
     color: inherit; }
 
 /* Banner */
-/* line 866, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 869, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 #feature {
   padding: 2em 0;
   text-align: center; }
-  /* line 870, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 873, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   #feature :last-child {
     margin-bottom: 0; }
-  /* line 875, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 878, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   #feature .post-header h2 {
     font-size: 4em;
     line-height: 1em;
@@ -767,39 +770,39 @@ input[type="submit"], input[type="reset"], input[type="button"], .button, .post-
     padding: 0; }
 
 /* Main */
-/* line 887, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 890, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 #main {
   padding: 1em 0; }
 
 /* Footer */
-/* line 893, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 896, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 #footer {
   background: #8CD9D3;
   padding: 2em 0;
   margin-top: 4em;
   color: #fff;
   text-align: center; }
-  /* line 900, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 903, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   #footer .icon {
     font-size: 1.5em; }
-  /* line 904, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 907, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   #footer a {
     color: inherit; }
-  /* line 908, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 911, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   #footer .copyright {
     color: inherit;
     font-size: 0.9em;
     margin: 2em 0 0 0;
     padding: 0;
     text-align: center; }
-    /* line 915, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 918, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     #footer .copyright li {
       border-left: solid 1px rgba(144, 144, 144, 0.25);
       display: inline-block;
       list-style: none;
       margin-left: 1.5em;
       padding-left: 1.5em; }
-      /* line 922, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+      /* line 925, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
       #footer .copyright li:first-child {
         border-left: 0;
         margin-left: 0;
@@ -807,50 +810,50 @@ input[type="submit"], input[type="reset"], input[type="button"], .button, .post-
 
 /* Ghost Stuff */
 /* Loop */
-/* line 937, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 940, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .post-loop header h2, .post-loop .author-meta h2 {
   margin: 0 0 0.65em 0; }
-/* line 941, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 944, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .post-loop header h2 + p, .post-loop .author-meta h2 + p {
   font-size: 0.9em;
   margin-bottom: 0; }
-/* line 947, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 950, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .post-loop article {
   margin: 0 0 1em 0;
   min-height: 100px; }
-/* line 952, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 955, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .post-loop .pagination {
   width: 100%;
   text-align: center;
   position: relative; }
-  /* line 957, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 960, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .post-loop .pagination .older-posts, .post-loop .pagination .newer-posts {
     position: absolute; }
-  /* line 963, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 966, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .post-loop .pagination .older-posts {
     right: 0; }
-  /* line 967, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 970, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .post-loop .pagination .newer-posts {
     left: 0; }
 
-/* line 973, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 976, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .loop-excerpt {
   text-align: left; }
-  /* line 976, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 979, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .loop-excerpt .post-header, .loop-excerpt .post-image {
     margin-bottom: 0.5em; }
-    /* line 978, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+    /* line 981, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
     .loop-excerpt .post-header h1, .loop-excerpt .post-header h2, .loop-excerpt .post-header h3, .loop-excerpt .post-header h4, .loop-excerpt .post-header h5, .loop-excerpt .post-header h6, .loop-excerpt .post-image h1, .loop-excerpt .post-image h2, .loop-excerpt .post-image h3, .loop-excerpt .post-image h4, .loop-excerpt .post-image h5, .loop-excerpt .post-image h6 {
       font-weight: 300; }
-  /* line 983, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 986, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .loop-excerpt .post-content h1, .loop-excerpt .post-content h2, .loop-excerpt .post-content h3, .loop-excerpt .post-content h4, .loop-excerpt .post-content h5, .loop-excerpt .post-content h6 {
     font-size: 1em;
     margin: 0; }
-  /* line 988, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 991, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .loop-excerpt .post-content p {
     margin: 1.5em 0 !important; }
 
-/* line 995, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 998, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .post-featured:after {
   content: 'Featured Post';
   position: absolute;
@@ -862,33 +865,33 @@ input[type="submit"], input[type="reset"], input[type="button"], .button, .post-
   line-height: 1.25em;
   margin-left: 1.5em; }
 
-/* line 1008, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 1011, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .feature-image, .post-image {
   width: 100%;
   overflow: hidden;
   display: block; }
-  /* line 1013, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 1016, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .feature-image img, .post-image img {
     width: inherit; }
 
-/* line 1018, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 1021, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .feature-image {
   height: 25em; }
 
-/* line 1022, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 1025, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .post-image {
   height: 15em; }
 
 /* Page */
-/* line 1029, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 1032, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .page-header {
   text-align: center; }
-  /* line 1032, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 1035, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .page-header h2 {
     font-size: 2.5em; }
 
 /* Author */
-/* line 1040, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 1043, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .author-image img {
   width: 150px;
   height: 150px;
