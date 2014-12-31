@@ -852,7 +852,6 @@
         line-height:2.75em;
         border-top:solid 1px #ccc;
         border-bottom:solid 1px #ccc;
-        margin-bottom:3em;
         text-align:center;
         color:#ccc;
 
@@ -995,16 +994,17 @@
 }
 
 .post-featured{
+    padding-bottom:1em;
     &:after{
         content:'Featured Post';
         position:absolute;
+        display:block;
         background-color:$color-accent-bg;
         color:$color-bg;
         padding:0.25em 0.5em;
         font-size:0.5em;
         margin-top:0.65em;
         line-height:1.25em;
-        margin-left:1.5em;
     }
 }
 
