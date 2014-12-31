@@ -882,16 +882,20 @@ input[type="submit"], input[type="reset"], input[type="button"], .button, .post-
 .post-image {
   height: 15em; }
 
+/* line 1030, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+.post-content img {
+  max-width: 100%; }
+
 /* Page */
-/* line 1032, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 1037, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .page-header {
   text-align: center; }
-  /* line 1035, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+  /* line 1040, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
   .page-header h2 {
     font-size: 2.5em; }
 
 /* Author */
-/* line 1043, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
+/* line 1048, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style.scss */
 .author-image img {
   width: 150px;
   height: 150px;
