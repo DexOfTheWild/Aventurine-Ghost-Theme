@@ -932,45 +932,6 @@
 
 
 /* Ghost Stuff */
-/* Loop */
-
-.post-loop{
-    header{
-        h2{
-            margin:0 0 0.65em 0;
-        }
-
-        h2 + p{
-            font-size:0.9em;
-            margin-bottom:0;
-        }
-    }
-
-    article{
-        margin:0 0 1em 0;
-        min-height:100px;
-    }
-
-    .pagination{
-        width:100%;
-        text-align:center;
-        position:relative;
-
-        .older-posts, .newer-posts{
-            @extend .button;
-            @extend .special;
-            position:absolute;
-        }
-
-        .older-posts{
-            right:0;
-        }
-
-        .newer-posts{
-            left:0;
-        }
-    }
-}
 
 .loop-excerpt{
     text-align:left;
