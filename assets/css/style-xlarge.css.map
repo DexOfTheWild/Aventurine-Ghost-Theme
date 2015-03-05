@@ -1,7 +1,12 @@
 {
   "version": 3,
   "file": "style-xlarge.css",
-  "sources": ["..\/sass\/style-xlarge.scss","..\/sass\/_vars.scss","..\/sass\/_mixins.scss"],
+  "sources": [
+    "style-xlarge.scss",
+    "_vars.scss",
+    "_mixins.scss"
+  ],
   "names": [],
-  "mappings": ";;AAKA,MAAM,OAAO,QAAQ;EACnB,WAAW;;;;AAKb;EACE,SAAS"
+  "mappings": ";;AAKA,MAAM,OAAO,QAAQ;EACnB,WAAW",
+  "sourceRoot": "../sass/"
 }

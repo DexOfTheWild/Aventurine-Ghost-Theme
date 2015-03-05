@@ -1,7 +1,7 @@
 {
     "path": {
-        "styles/*.scss": {
-            "sass.enabled": false,
+        "assets/sass/*.scss": {
+            "sass.enabled": true,
             "sass.options": {
                 "outputDir": "../css/",
                 "imagePath": null,

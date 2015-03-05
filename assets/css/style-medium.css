@@ -1,31 +1,29 @@
 /* Basic */
-/* line 6, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-medium.scss */
+/* line 6, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
 body, input, select, textarea {
   font-size: 11pt; }
 
 /* Header */
-/* line 13, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-medium.scss */
+/* line 13, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
 #skel-layers-wrapper {
   padding-top: 0; }
 
-/* line 18, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-medium.scss */
-#header h1 {
-  position: relative;
-  font-size: 1.25em; }
-
-/* Banner */
-/* line 26, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-medium.scss */
-#banner {
-  padding: 6em 2em; }
+/* line 17, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
+#header {
+  margin: 6em 0 3em 0; }
+  /* line 19, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
+  #header h1 {
+    position: relative;
+    font-size: 1.25em; }
 
 /* Layers */
-/* line 33, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-medium.scss */
+/* line 28, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
 #navButton .toggle {
   text-decoration: none;
   height: 100%;
   position: absolute;
   width: 100%; }
-  /* line 24, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/mixins */
+  /* line 24, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/mixins */
   #navButton .toggle:before {
     content: '\f0c9';
     -moz-osx-font-smoothing: grayscale;
@@ -34,7 +32,7 @@ body, input, select, textarea {
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
-  /* line 39, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-medium.scss */
+  /* line 34, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
   #navButton .toggle:before {
     background: #8CD9D3;
     color: #fff;
@@ -49,32 +47,32 @@ body, input, select, textarea {
     top: 0;
     width: 3.5em; }
 
-/* line 56, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-medium.scss */
+/* line 51, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
 #navPanel {
   background: #8CD9D3;
   color: #fff; }
-  /* line 60, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-medium.scss */
+  /* line 55, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
   #navPanel nav {
     padding: 0.5em 1.25em; }
-    /* line 63, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-medium.scss */
+    /* line 58, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
     #navPanel nav ul {
       list-style: none;
       margin: 0;
       padding: 0; }
-      /* line 68, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-medium.scss */
+      /* line 63, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
       #navPanel nav ul li {
         padding: 0; }
-        /* line 72, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-medium.scss */
+        /* line 67, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
         #navPanel nav ul li:first-child a:not(.button), #navPanel nav ul li:first-child span:not(.button) {
           border-top: 0; }
-        /* line 77, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-medium.scss */
+        /* line 72, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
         #navPanel nav ul li a:not(.button), #navPanel nav ul li span:not(.button) {
           border-top: solid 1px rgba(255, 255, 255, 0.75);
           color: #fff;
           display: block;
           padding: 0.75em 0;
           text-decoration: none; }
-    /* line 87, /Users/alex/Documents/ghost-aventurine/content/themes/aventurine/assets/sass/style-medium.scss */
+    /* line 82, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
     #navPanel nav .button {
       width: 100%; }
 
