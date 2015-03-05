@@ -4,10 +4,12 @@
 <header class="12u$ section-header"><h3>Latest Posts</h3></header>
 {{#foreach posts}}
     <div class="row uniform">
-        <section class="loop-image 8u 12u$(2)">
-            {{#if image}}<a href="{{url}}" class="feature-image"><img src="{{image}}" /></a>{{/if}}
-        </section>
-        <section class="loop-excerpt 4u$ 12u$(2)">
+        {{#if image}}
+        <section class="loop-excerpt 4u 12u$(2)">
+        {{else}}
+        <section class="loop-excerpt 12u$">
+        {{/if}}
+
             <div class="post-container">
                 <header class="post-header">
                     <h3 class="post-title {{#if featured}}post-featured{{/if}}"><a href="{{url}}">{{title}}</a></h3>
@@ -19,6 +21,11 @@
                 <a href="{{url}}" class="read-more">Read More »</a>
             </div>
         </section>
+        {{#if image}}
+            <section class="loop-image 8u$ 12u$(2)">
+                <a href="{{url}}" class="feature-image"><img src="{{image}}" /></a>
+            </section>
+        {{/if}}
         {{#if @last}}
         {{else}}
         <div class="12u$"><hr/></div>
