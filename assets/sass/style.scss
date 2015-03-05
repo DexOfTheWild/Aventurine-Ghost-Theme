@@ -787,6 +787,23 @@
 			}
 		}
 
+        #logo{
+            position:absolute;
+            height:inherit;
+            vertical-align:middle;
+            left:0;
+            top:0;
+
+            a{
+                height:inherit;
+            }
+
+            img{
+                height:50px;
+                width:auto;
+            }
+        }
+
 		nav {
 			height: inherit;
 			line-height: inherit;

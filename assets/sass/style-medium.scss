@@ -20,6 +20,16 @@
             position:relative;
             font-size:1.25em;
         }
+
+        #logo{
+            position:relative;
+            height:inherit;
+
+            img{
+                height:70px;
+                width:auto;
+            }
+        }
 	}
 
 /* Layers */

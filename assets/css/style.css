@@ -685,6 +685,20 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
     #header h1 a {
       font-size: 2.25em; }
   /* line 790, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  #header #logo {
+    position: absolute;
+    height: inherit;
+    vertical-align: middle;
+    left: 0;
+    top: 0; }
+    /* line 797, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+    #header #logo a {
+      height: inherit; }
+    /* line 801, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+    #header #logo img {
+      height: 50px;
+      width: auto; }
+  /* line 807, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   #header nav {
     height: inherit;
     line-height: inherit;
@@ -692,18 +706,18 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
     position: absolute;
     right: 0;
     top: 0; }
-    /* line 798, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+    /* line 815, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
     #header nav > ul {
       list-style: none;
       margin: 0;
       padding-left: 0; }
-      /* line 803, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+      /* line 820, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
       #header nav > ul > li {
         border-radius: 4px;
         display: inline-block;
         margin-left: 1.5em;
         padding-left: 0; }
-        /* line 809, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+        /* line 826, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
         #header nav > ul > li a {
           -moz-transition: color 0.2s ease-in-out;
           -webkit-transition: color 0.2s ease-in-out;
@@ -714,13 +728,13 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
           display: inline-block;
           text-decoration: none;
           font-weight: 300; }
-          /* line 816, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+          /* line 833, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
           #header nav > ul > li a:hover {
             color: #8CD9D3; }
-        /* line 821, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+        /* line 838, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
         #header nav > ul > li:first-child {
           margin-left: 0; }
-        /* line 825, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+        /* line 842, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
         #header nav > ul > li .button {
           height: 2.25em;
           line-height: 2.25em;
@@ -729,17 +743,17 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
           position: relative;
           top: -0.075em;
           vertical-align: middle; }
-  /* line 838, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  /* line 855, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   #header .container {
     position: relative; }
-    /* line 841, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+    /* line 858, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
     #header .container h1 {
       left: 0; }
-    /* line 845, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+    /* line 862, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
     #header .container nav {
       right: 0; }
 
-/* line 851, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+/* line 868, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 #sub-header {
   min-height: 2.75em;
   line-height: 2.75em;
@@ -747,22 +761,22 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
   border-bottom: solid 1px rgba(144, 144, 144, 0.25);
   text-align: center;
   color: #ccc; }
-  /* line 859, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  /* line 876, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   #sub-header ul {
     margin: 0; }
-  /* line 863, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  /* line 880, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   #sub-header a {
     color: inherit; }
 
 /* Banner */
-/* line 869, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+/* line 886, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 #feature {
   padding: 3em 0;
   text-align: center; }
-  /* line 873, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  /* line 890, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   #feature :last-child {
     margin-bottom: 0; }
-  /* line 878, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  /* line 895, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   #feature .post-header h2 {
     font-size: 4em;
     line-height: 1em;
@@ -770,66 +784,66 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
     padding: 0; }
 
 /* Main */
-/* line 890, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+/* line 907, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 #main {
   padding: 4em 0 0 0; }
 
 /* Footer */
-/* line 896, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+/* line 913, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 #footer {
   background: #8CD9D3;
   padding: 2em 0;
   margin-top: 4em;
   color: #fff;
   text-align: center; }
-  /* line 903, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  /* line 920, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   #footer .icon {
     font-size: 1.5em; }
-  /* line 907, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  /* line 924, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   #footer a {
     color: inherit; }
-  /* line 911, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  /* line 928, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   #footer .copyright {
     color: inherit;
     font-size: 0.9em;
     margin: 2em 0 0 0;
     padding: 0;
     text-align: center; }
-    /* line 918, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+    /* line 935, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
     #footer .copyright li {
       border-left: solid 1px rgba(144, 144, 144, 0.25);
       display: inline-block;
       list-style: none;
       margin-left: 1.5em;
       padding-left: 1.5em; }
-      /* line 925, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+      /* line 942, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
       #footer .copyright li:first-child {
         border-left: 0;
         margin-left: 0;
         padding-left: 0; }
 
 /* Ghost Stuff */
-/* line 937, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+/* line 954, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 .loop-excerpt {
   text-align: left; }
-  /* line 940, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  /* line 957, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   .loop-excerpt .post-header, .loop-excerpt .post-image {
     margin-bottom: 0.5em; }
-    /* line 942, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+    /* line 959, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
     .loop-excerpt .post-header h1, .loop-excerpt .post-header h2, .loop-excerpt .post-header h3, .loop-excerpt .post-header h4, .loop-excerpt .post-header h5, .loop-excerpt .post-header h6, .loop-excerpt .post-image h1, .loop-excerpt .post-image h2, .loop-excerpt .post-image h3, .loop-excerpt .post-image h4, .loop-excerpt .post-image h5, .loop-excerpt .post-image h6 {
       font-weight: 300; }
-  /* line 947, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  /* line 964, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   .loop-excerpt .post-content h1, .loop-excerpt .post-content h2, .loop-excerpt .post-content h3, .loop-excerpt .post-content h4, .loop-excerpt .post-content h5, .loop-excerpt .post-content h6 {
     font-size: 1em;
     margin: 0; }
-  /* line 952, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  /* line 969, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   .loop-excerpt .post-content p {
     margin: 1.5em 0 !important; }
 
-/* line 958, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+/* line 975, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 .post-featured {
   padding-bottom: 1em; }
-  /* line 960, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  /* line 977, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   .post-featured:after {
     content: 'Featured Post';
     position: absolute;
@@ -841,46 +855,46 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
     margin-top: 0.3em;
     line-height: 1.25em; }
 
-/* line 973, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+/* line 990, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 .feature-image, .post-image {
   width: 100%;
   overflow: hidden;
   display: block; }
-  /* line 978, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  /* line 995, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   .feature-image img, .post-image img {
     width: inherit; }
 
-/* line 983, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+/* line 1000, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 .feature-image {
   height: 25em; }
 
-/* line 987, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+/* line 1004, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 .post-image {
   height: 15em; }
 
-/* line 992, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+/* line 1009, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 .post-content img {
   max-width: 100%; }
 
-/* line 999, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+/* line 1016, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 .single .post-featured:after {
   margin-top: 0.65em;
   font-size: 0.5em; }
 
 /* Page */
-/* line 1008, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+/* line 1025, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 .page-header {
   text-align: center; }
-  /* line 1011, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+  /* line 1028, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   .page-header h2 {
     font-size: 2.5em; }
 
-/* line 1017, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+/* line 1034, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 .post-header .feature-image {
   margin-bottom: 1.5em; }
 
 /* Author */
-/* line 1025, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
+/* line 1042, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 .author-image img {
   width: 150px;
   height: 150px;
