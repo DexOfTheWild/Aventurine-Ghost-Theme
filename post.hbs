@@ -3,25 +3,8 @@
 {{#post}}
 
 <section id="main" class="container">
-        <div class="row uniform">
-            <aside class="author-box 4u 12u$(3)">
-                <div class="post-author">
-                    {{#if author.image}}
-                    <div class="author-image">
-                        <img src="{{author.image}}" />
-                    </div>
-                    {{/if}}
-                    <div class="author-bio">
-                        <header>
-                            <h2>{{author.name}}</h2>
-                            {{#if author.website}}<p><a href="{{author.website}}">{{author.website}}</a></p>{{/if}}
-                        </header>
-                        <p>{{author.bio}}</p>
-                        {{>social-icons}}
-                    </div>
-                </div>
-            </aside>
-            <article class="{{post_class}} single 8u 12u$(3) important(3)">
+        <div class="row uniform">            
+            <article class="{{post_class}} single 12u$">
                 <div class="post-container">
                     <header class="post-header">
             <h1 class="post-title {{#if featured}}post-featured{{/if}}"><a href="{{url}}">{{title}}</a></h1>
