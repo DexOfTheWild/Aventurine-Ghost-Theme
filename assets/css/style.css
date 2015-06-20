@@ -831,7 +831,7 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
     margin-bottom: 0.5em; }
     /* line 959, /Users/ritcheya1/Documents/ghost/content/themes/Aventurine-Ghost-Theme/assets/sass/style.scss */
     .loop-excerpt .post-header h1, .loop-excerpt .post-header h2, .loop-excerpt .post-header h3, .loop-excerpt .post-header h4, .loop-excerpt .post-header h5, .loop-excerpt .post-header h6, .loop-excerpt .post-image h1, .loop-excerpt .post-image h2, .loop-excerpt .post-image h3, .loop-excerpt .post-image h4, .loop-excerpt .post-image h5, .loop-excerpt .post-image h6 {
-      font-weight: 300; }
+      font-weight: 700; }
   /* line 964, /Users/ritcheya1/Documents/ghost/content/themes/Aventurine-Ghost-Theme/assets/sass/style.scss */
   .loop-excerpt .post-content h1, .loop-excerpt .post-content h2, .loop-excerpt .post-content h3, .loop-excerpt .post-content h4, .loop-excerpt .post-content h5, .loop-excerpt .post-content h6 {
     font-size: 1em;
