@@ -2,11 +2,11 @@
   "version": 3,
   "file": "style-small.css",
   "sources": [
-    "style-small.scss",
-    "_vars.scss",
-    "_mixins.scss"
+    "../sass/style-small.scss",
+    "../sass/_vars.scss",
+    "../sass/_mixins.scss"
   ],
-  "names": [],
-  "mappings": ";;AAKA,MAAM,OAAO,QAAQ;EACnB,WAAW;;;;AAKb;EACE,SAAS;;;;AAKX;EACE,SAAS;;EAEX,QAAQ,WAAW;IAEf,aAAa;IACb,aAAa;IACb,cAAc;IACd,SAAS;;;AAKb,gBAAgB;EAEJ,SAAQ;;;AAIpB,cAAc,aAAa,EAAE;EAEjB,gBAAe;;EAA3B,cAAc,aAAa,EAAE,cAAc;IAE3B,SAAQ;IACR,aAAY",
-  "sourceRoot": "../sass/"
+  "sourcesContent": [],
+  "mappings": ";;AAKA,AAAM,AAAO,AAAQ;EACnB,AAAW;;;;AAKb;EACE,AAAS;;;;AAKX;EACE,AAAS;;EAGX,AAAQ,AAAW;IACf,AAAa;IACb,AAAa;IACb,AAAc;IACd,AAAS;;;AAMb,AAAgB;EACJ,AAAQ;;;AAKpB,AAAc,AAAa,AAAE;EACjB,AAAe;;EAC3B,AAAc,AAAa,AAAE,AAAc;IAC3B,AAAQ;IACR,AAAY",
+  "names": []
 }

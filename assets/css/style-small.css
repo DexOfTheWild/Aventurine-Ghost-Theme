@@ -1,32 +1,32 @@
 /* Basic */
-/* line 6, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-small.scss */
+/* line 6, /Users/ritcheya1/Documents/ghost/content/themes/Aventurine-Ghost-Theme/assets/sass/style-small.scss */
 body, input, select, textarea {
   font-size: 11pt; }
 
 /* Main */
-/* line 12, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-small.scss */
+/* line 12, /Users/ritcheya1/Documents/ghost/content/themes/Aventurine-Ghost-Theme/assets/sass/style-small.scss */
 #main {
   padding: 2em 0; }
 
 /* Footer */
-/* line 18, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-small.scss */
+/* line 18, /Users/ritcheya1/Documents/ghost/content/themes/Aventurine-Ghost-Theme/assets/sass/style-small.scss */
 #footer {
   padding: 2em 0; }
-  /* line 22, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-small.scss */
+  /* line 22, /Users/ritcheya1/Documents/ghost/content/themes/Aventurine-Ghost-Theme/assets/sass/style-small.scss */
   #footer .copyright li {
     border-left: 0;
     margin-left: 0;
     padding-left: 0;
     display: block; }
 
-/* line 32, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-small.scss */
+/* line 32, /Users/ritcheya1/Documents/ghost/content/themes/Aventurine-Ghost-Theme/assets/sass/style-small.scss */
 .section-header hr {
   display: none; }
 
-/* line 38, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-small.scss */
+/* line 38, /Users/ritcheya1/Documents/ghost/content/themes/Aventurine-Ghost-Theme/assets/sass/style-small.scss */
 .loop-excerpt .post-header h3.post-featured {
   padding-bottom: 1em; }
-  /* line 40, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-small.scss */
+  /* line 40, /Users/ritcheya1/Documents/ghost/content/themes/Aventurine-Ghost-Theme/assets/sass/style-small.scss */
   .loop-excerpt .post-header h3.post-featured::after {
     display: block;
     margin-left: 0; }

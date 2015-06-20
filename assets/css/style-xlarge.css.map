@@ -2,11 +2,11 @@
   "version": 3,
   "file": "style-xlarge.css",
   "sources": [
-    "style-xlarge.scss",
-    "_vars.scss",
-    "_mixins.scss"
+    "../sass/style-xlarge.scss",
+    "../sass/_vars.scss",
+    "../sass/_mixins.scss"
   ],
-  "names": [],
-  "mappings": ";;AAKA,MAAM,OAAO,QAAQ;EACnB,WAAW",
-  "sourceRoot": "../sass/"
+  "sourcesContent": [],
+  "mappings": ";;AAKA,AAAM,AAAO,AAAQ;EACnB,AAAW",
+  "names": []
 }
