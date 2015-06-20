@@ -16,7 +16,7 @@
 			// XLarge.
 				xlarge: {
 					media: '(max-width: 1680px)',
-                    containers: 1260,
+                    containers: 960,
 					href: '/assets/css/style-xlarge.css',
 				},
 
