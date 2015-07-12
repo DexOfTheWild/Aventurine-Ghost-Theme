@@ -11,7 +11,7 @@
 	body, input, select, textarea {
 		color: $color-fg;
 		font-family: $font-family;
-		font-size: 13pt;
+		font-size: 11pt;
 		font-weight: $font-weight;
 		line-height: 1.65em;
 	}
@@ -37,7 +37,6 @@
 	p {
 		margin: 0 0 $size-element-margin 0;
         line-height:2em;
-        font-size:0.85em;
         font-family:'Merriweather Sans', Arial, sans-serif;
 	}
 
@@ -758,7 +757,7 @@
 		color: $color-fg;
 		cursor: default;
 		width: 100%;
-        height:3em;
+        min-height:3em;
         line-height:3em;
         margin:2em 0;
 		z-index: 10000;
@@ -769,16 +768,13 @@
             @include vendor-property('transition', 'color #{$duration-transition} ease-in-out');
 			color:$color-fg;
             font-family: $font-family-display;
-            position:absolute;
             height:inherit;
             line-height: inherit;
-            left:0;
             font-size:1em;
-            top:0;
 			margin-bottom: 0.75em;
 			padding: 0;
             text-transform: uppercase;
-            letter-spacing:10px;
+            letter-spacing:4px;
 
             &:hover{
                 color:$color-accent-bg;
@@ -810,9 +806,6 @@
 			height: inherit;
 			line-height: inherit;
 			vertical-align: middle;
-            position:absolute;
-            right:0;
-            top:0;
 
 			> ul {
 				list-style: none;

@@ -1,7 +1,7 @@
 <!-- Header -->
 <header id="header">
     <div class="container">
-        <div class="12u">
+        <div class="12u$">
             {{#if @blog.logo}}
                 <div id="logo">
                     <a href="{{@blog.url}}">
@@ -11,6 +11,8 @@
             {{else}}
                 <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
             {{/if}}
+        </div>
+        <div class="12u">
             <nav id="nav">
                 {{navigation}}
             </nav>
