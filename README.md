@@ -2,8 +2,6 @@
 
 A minimal [Ghost](http://github.com/tryghost/ghost/) freebie to get your first blog up and running beautifully.
 
-Live Preview: [http://aventurine.crystalline-themes.com](http://aventurine.crystalline-themes.com)
-
 ## Copyright & License
 
 © 2014 Crystalline Themes. All rights reserved.
